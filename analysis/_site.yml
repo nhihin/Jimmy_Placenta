@@ -1,7 +1,7 @@
-name: "Jimmy_Placenta"
+name: Jimmy_Placenta
 output_dir: ../docs
 navbar:
-  title: "Jimmy_Placenta"
+  title: Jimmy_Placenta
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/nhihin/Jimmy_Placenta
 output:
   workflowr::wflow_html:
     toc: yes
